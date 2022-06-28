@@ -1,2 +1,2 @@
 # Web-Development
-Web Development Projects from undergrad at Mizzou 
+Web Development Project from undergrad at Mizzou 
