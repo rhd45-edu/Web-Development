@@ -1,0 +1,47 @@
+#wrapper {	
+	text-align: center;
+}
+
+#html, #css {
+    width:330px;
+    height:320px;
+    border: 5px dotted red;
+	box-shadow: 5px 10px 8px;
+}
+
+#css {
+	display: block;
+	margin: 0 auto;
+}
+
+#preview { 
+	width: 640px;
+    height: 652px;
+    display: block;
+    float: right;
+    border: 10px dotted blue;
+	position: relative;
+	right: -15px;
+	box-shadow: 5px 10px 8px;
+}
+
+.boxes{
+    display: inline-block;
+    margin: auto;
+}
+
+h1, h2 {
+    text-align: center;
+   
+}
+
+button {
+	background-color: red;
+	color: white;
+	border-raduis: 50px;
+	
+	}
+	
+#buttonWrapper {
+	text-align: center;
+}

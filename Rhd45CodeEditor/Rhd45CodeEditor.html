@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    
+    <!--
+        name: Raphael Hutchins
+        pawprint: rhd45
+        date: 9/27//2018
+    -->
+    
+    <head>
+        <title id="tab">Code Editor</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="Rhd45CodeEditor.css">
+    	<style id="colorful"></style>
+    </head>
+    
+    <body>
+        
+        <h1 id="heading" ondblclick="changeTitle()">Code Editor</h1>
+
+		<div id="wrapper">
+			<div class="boxes">
+				<div class="boxes"> 
+                    <textarea placeholder="HTML...." id="html" ondblclick="clickHTML()"></textarea>
+                    <textarea placeholder="CSS..." id="css" ondblclick="clickCSS()"></textarea>
+					
+                </div> 
+				<div id="preview"></div>
+			</div>		
+		</div>
+		<hr>
+		<div id="buttonWrapper">
+		 	<button onclick="launchHTML()"> Launch</button>
+                        <button id="toggle" onclick="toggleCSS()"> Toggle</button>
+                        <button onclick="clearAll()"> Clear</button> 
+    		</div>
+        <h2>By: Raphael</h2>
+    
+        <script src="Rhd45CodeEditor.js"></script>
+        
+    </body>
+
+
+</html>
